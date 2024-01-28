@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-primary: 'Roboto Mono', monospace;
+    --text-color: #CDD0D6;
+    --backgroud-color: #000000;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--ff-primary);
+    background-color: var(--backgroud-color);
+    color: var(--text-color);
+}
+
+#movie-info {
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.content {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+img {
+    height: 32rem;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 2rem 2rem;
+}
+
+p {
+    width: 35rem;
+    font-size: 1.4rem;
+}
+
+span p {
+    margin-left: 6.8rem;
+}
+
+.zone p {
+    margin-right: 6.5rem;
+}
+
+.weHaveAProblem{
+    display: grid;
+    text-align: center;
+}
